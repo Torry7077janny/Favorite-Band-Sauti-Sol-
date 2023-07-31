@@ -6,21 +6,16 @@
 }
 .bien{
     width:100%;
-    height: 100vh;
+    height:620px;
+    background-image: url(./favorite-band/image/bien.jpg);
+    position: relative;
+    background-repeat: no-repeat;
     background-size:cover;
-    background-repeat:no-repeat;
     background-position:center;
 
 }
-.image-bien{
-    width:300px;
-    height:200px;
-    background-image: url(sautisol-images/bien.jpg);
-    background-size:"cover";
-    background-repeat:"no-repeat";
-    background-position:"center"
-}
-.navbar{
+
+ .navbar{
     width:100%;
     height:100px;
     margin: auto;
