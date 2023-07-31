@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    font-family:sans-serif;
+}
+
+.chimano{
+    width:50%;
+    height: 50h;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
+.navbar{
+    width: 100px;
+    background-color: #333;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar ul li{
+    list-style:none;
+    padding:0px 5px;
+
+}
+.navbar ul li a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.navbar ul li:hover{
+    width:100%;
+    color: red;
+    background-color: white;
+
+}
+
+.chimano{
+   
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    text-align:"center";
+    color:black;
+}
+
+.chimano h1{
+    font-size:70px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+   .chimano p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 30px;
+}
