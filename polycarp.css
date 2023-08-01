@@ -1,4 +1,4 @@
-*{
+/* /* *{
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,12 +6,13 @@
 }
 
 .polycarp{
-    width:50%;
-    height: 50vh;
-    background-size:cover;
+    width:100%;
+    height:620px;
+    background-image: url(./favorite-band/image/polycarp.jpg);
+    position: relative;
     background-repeat: no-repeat;
+    background-size:cover;
     background-position:center;
-
 }
 .navbar{
     width:100%;
@@ -64,4 +65,101 @@ ul{
     font-weight: 100;
     line-height: 30px;
     
+} */
+
+*{
+  margin:0;
+  padding: 0;
+  
+  font-family:sans-serif;
+}    
+body{
+  min-height:100vh;
+  background-image:url(./image/sautisol-images/SAUTI\ SOL\ \(3\).jpg);
+ /* width: 200px; */
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:20px 100px;
+    /* background: lightcoral; */
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    /* border: rgba(0,0,0,0); */
+    /* border-bottom: 1px solid lightcoral; */
+
+}
+
+.navbar ul{
+  list-style:none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar ul li a{
+  line-height: 50px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size:30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+  background: rgba(0,0,0,0,7);
+  border-radius: 6px;
+}
+
+.image{
+  width:300px;
+  height:300px;
+  background-image:url(./image/sautisol-images/Sauti\ Sol\ —\ nataal_com\ \(1\).png);
+  /* margin-left: 300px; */
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+.about-polycarp{
+  /* width: 50%; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  text-align:"center";
+  color:black;
+}
+.about-polycarp h1{
+  font-family: Arial, "Times New Roman";
+  text-align: center;
+  font-size:50px;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 80px;
+  text-decoration: underline;
+}
+.about-polycarp p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:30px;
+  text-indent:30px;
+  color:antiquewhite;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+
+
+
+
+
+
