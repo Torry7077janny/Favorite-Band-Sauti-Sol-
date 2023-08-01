@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    font-family:sans-serif;
+}    
+ body{
+    /* height:100vh; */
+    background-image:url(./image/sautisol-images/Sauti\ Sol\ \(14\).jpg);
+    width: 300px; 
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+ }
+ .navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:20px 100px;
+    /* background: lightcoral; */
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    /* border: rgba(0,0,0,0); */
+    /* border-bottom: 1px solid lightcoral; */
+
+}
+
+.navbar ul{
+    list-style:none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ }
+ .navbar ul li a{
+    line-height: 50px;
+    font-family: fira code;
+    color: lightsalmon;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size:25px;
+    font-weight:70px;
+    text-transform: uppercase;
+ }
+ 
+ .navbar ul li a:hover{
+    background: rgba(0,0,0,0,7);
+    border-radius: 6px;
+ }
+ .image{
+    width:350px;
+    height:350px;
+    background-image:url(./image/sautisol-images/bien1.jpg);
+    /* margin-left: 200px; */
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+  
+ }
+ .about-bien{ 
+     /* width: 50%; */
+    position: absolute;
+    float: right;
+    top: 50%;
+    transform: translateY(-45%);
+    text-align:"center";
+    color:gray; 
+ }
+
+.about-bien h1{
+    font-family: PragmataPro;
+    text-align: center;
+    color:aqua;
+    bottom: 0;
+    font-size:70px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+.about-bien p{
+    font-family:Jetbrains Mono;
+    font-size:30px;
+    text-indent:30px;
+    color:yellow;
+    margin: 20px auto;
+    text-align: center; 
+    font-weight: 70px;
+    line-height: 50px;
+}
