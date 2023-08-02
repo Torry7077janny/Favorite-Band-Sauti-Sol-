@@ -12,7 +12,7 @@
  }
  body{
     min-height:100vh;
-    background-image:url(./image/sautisol-images/Sauti\ Sol\ \(11\).jpg);
+    background-image:url(./image/sautisol-images/sautisol11.jpg);
    /* width: 200px; */
     /* height: 100vh; */
     background-repeat: no-repeat;
@@ -41,10 +41,11 @@
  }
  .navbar ul li a{
     line-height: 50px;
-    color: white;
+    font-family: "fira code";
+    color:yellow;
     padding: 12px 30px;
     text-decoration: none;
-    font-size:30px;
+    font-size:20px;
     font-weight: bold;
     text-transform: uppercase;
  }
@@ -63,22 +64,23 @@
     color:black;
 }
 .info h1{
-    font-family: Arial, "Times New Roman";
-    font-size:50px;
-    color:aqua;
+    font-family: "Cascadia mono";
+    font-size:70px;
+    color:lightcyan;
+    text-align: center;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 50px;
     margin-top: 80px;
     text-decoration: underline;
 }
 .info p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:optima;
     font-size:25px;
     text-indent:30px;
-    color:lightgray;
+    color:aqua;
     margin: 20px auto;
     text-align: center;
-    font-weight: 50;
+    font-weight: 50px;
     line-height: 40px;
 }
 
