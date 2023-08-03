@@ -57,9 +57,9 @@
  
 .info{
     /* width: 50%; */
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-45%);
+    transform: translateY(-45%); */
     text-align:"center";
     color:black;
 }
