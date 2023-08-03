@@ -6,7 +6,7 @@
 }    
  body{
     min-height:100vh;
-    background-image:url(./image/sautisol-images/SAUTI\ SOL\ \(15\).jpg);
+    background-image:url(./image/sautisol-images/sautisol15.jpg);
    /* width: 200px; */
     /* height: 100vh; */
     background-repeat: no-repeat;
@@ -37,11 +37,12 @@
  }
  .navbar ul li a{
     line-height: 50px;
-    color: white;
+    font-family: "fira code";
+    color:lightsalmon;
     padding: 12px 30px;
     text-decoration: none;
-    font-size:30px;
-    font-weight: bold;
+    font-size:25px;
+    font-weight:70px;
     text-transform: uppercase;
  }
  
@@ -52,8 +53,9 @@
  
  .image{
     width:300px;
-    height:250px;
-    background-image:url(./image/sautisol-images/SAUTI\ SOL\ \(15\).jpg);
+    height:350px;
+    background-image:url(./image/sautisol-images/sautisol15.jpg);
+
     /* margin-left: 200px; */
     background-size: 150%;
     background-repeat: no-repeat;
@@ -69,11 +71,12 @@
     color:black;
 }
 .about-savara h1{
-    font-family: Arial, "Times New Roman";
-    font-size:50px;
+    font-family: "Cascadia Mono";
+    font-size:60px;
+    text-align: center;
     color: aqua;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 50px;
     margin-top: 80px;
     text-decoration: underline;
 }
@@ -81,10 +84,10 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:30px;
     text-indent:30px;
-    color:antiquewhite;
+    color:yellow;
     margin: 20px auto;
     text-align: center;
-    font-weight: 100;
+    font-weight:50px;
     line-height: 50px;
 }
 
