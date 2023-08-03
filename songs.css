@@ -53,9 +53,9 @@
   border-radius: 6px;
 }
 .link-songs{
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  transform: translateY(-45%);
+  transform: translateY(-45%); */
   text-align:"center"
 }
 .link-songs h1{
@@ -70,7 +70,7 @@
 }
 .link-songs p{
   font-family: "optima";
-  font-size:40px;
+  font-size:30px;
   text-indent:30px;
   color:white;
   margin: 20px auto;
