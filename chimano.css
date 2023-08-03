@@ -1,70 +1,152 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.chimano {
+  width: 100%;
+  height: 620px;
+  background-image: url(./favorite-band/image/chimano.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 100px;
+  background-color: #333;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 0px 5px;
+}
+.navbar ul li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbar ul li:hover {
+  width: 100%;
+  color: red;
+  background-color: white;
+}
+
+.chimano h1 {
+  font-size: 70px;
+  margin-top: 30px;
+  text-align: center;
+}
+.chimano p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 30px;
+} */
 *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #333;
-    font-family:sans-serif;
+  margin:0;
+  padding: 0;
+  
+  font-family:sans-serif;
+}    
+body{
+  min-height:100vh;
+  background-image:url(./image/sautisol-images/sautisol9.jpg);
+ /* width: 200px; */
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
-
-.chimano{
-    width:50%;
-    height: 50h;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-
-}
-
 .navbar{
-    width: 100px;
-    background-color: #333;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:20px 100px;
+    /* background: lightcoral; */
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    /* border: rgba(0,0,0,0); */
+    /* border-bottom: 1px solid lightcoral; */
 
 }
-.navbar ul li{
-    list-style:none;
-    padding:0px 5px;
 
+.navbar ul{
+  list-style:none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 .navbar ul li a{
-    color:white;
-    font-size: 15px;
-    text-decoration: none;
-
-}
-.navbar ul li:hover{
-    width:100%;
-    color: red;
-    background-color: white;
-
+  line-height: 50px;
+  color:lightsalmon;
+  font-family: fira code;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size:25px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.chimano{
-   
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-45%);
-    text-align:"center";
-    color:black;
+.navbar ul li a:hover{
+  background: rgba(0,0,0,0,7);
+  border-radius: 6px;
 }
 
-.chimano h1{
-    font-size:70px;
-    margin-top: 30px;
-    text-align: center;
+.image{
+  width:350px;
+  height:370px;
+  background-image:url(./immage/sautisol-images/sautisol20.png);
+  /* margin-left: 200px; */
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+}
+.about-chimano{
+  /* width: 50%; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  text-align:"center";
+  color:aqua;
+}
+.about-chimano h1{
+  font-family:"fire code";
+  color:black;
+  text-align: center;
+  font-size:70px;
+  font-style: italic;
+  font-weight:bold;
+  margin-top: 80px;
+  text-decoration: underline;
+}
+.about-chimano p{
+  font-family:"Droid sans";
+  font-size:30px;
+  text-indent:30px;
+  color:yellow;
+  margin: 20px auto;
+  text-align: 70px;
+  font-weight:70px;
+  line-height: 50px;
+}
 
-}
-   .chimano p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 30px;
-}
+
+
+
+
+
