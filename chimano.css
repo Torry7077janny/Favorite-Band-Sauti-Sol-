@@ -118,10 +118,10 @@ body{
 }
 .about-chimano{
   /* width: 50%; */
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   transform: translateY(-45%);
-  text-align:"center";
+  text-align:"center"; */
   color:aqua;
 }
 .about-chimano h1{
