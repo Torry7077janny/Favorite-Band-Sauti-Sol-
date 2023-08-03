@@ -1,80 +1,114 @@
-*{
-    margin:0px;
-    padding: 0px;
-    box-sizing:border-box;
 
-    
-    font-family:sans-serif;
-}
-.sautisol-songs{
-    width:100px;
-    height: 100vh;
-    background-color:gray;
+
+    *{
+      margin:0;
+      padding: 0;
+      
+      font-family:sans-serif;
+  }    
+    body{
+   background-image: url(./image/Black\ Dandyism1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
     background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-
-}
-.image-sauti{
-    width:300px;
-    height:200px;
-    background-image: url(image/bien.jpg);
-    background-size:"cover";
-    background-repeat:"no-repeat";
-    background-position:"center"
-}
+    background-position:center; 
+     color: ghostwhite;
+  height: 100%;
+  margin-bottom: 0;
+} 
 .navbar{
-    width:100%;
-    background-color: #333;
-    height:100px;
-    margin: auto;
-    padding:10px 20px;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-    position: fixed;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navbar ul li{
-    list-style:none;
-    padding:0px 5px;
-    
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  padding:20px 100px;
+  /* background: lightcoral; */
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  /* border: rgba(0,0,0,0); */
+  /* border-bottom: 1px solid lightcoral; */
 
 }
 
+.navbar ul{
+  list-style:none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 .navbar ul li a{
-    text-decoration:none;
-    color:#fff;
-    font-size:14px;
-    font-family: arial;
-
+  line-height: 50px;
+  color: red;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size:25px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-
-.navbar ul li:hover{
-    width:100%;
-    color: yellowgreen;
+.navbar ul li a:hover{
+  background: rgba(0,0,0,0,7);
+  border-radius: 6px;
 }
-.sautisol-songs{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-45%);
-    text-align:"center";
-    color:black;
+.link-songs{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
+  text-align:"center"
 }
-
 .link-songs h1{
-    font-size:70px;
-    margin-top: 80px;
-     
+  font-family: "fira code";
+  text-align: left;
+  font-size:70px;
+  color:black;
+  font-style:italic;
+  font-weight: 70px;
+  margin-top:250px;
+  text-decoration: underline;
 }
 .link-songs p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 30px;
+  font-family: "optima";
+  font-size:40px;
+  text-indent:30px;
+  color:white;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 70px;
+  line-height: 50px;
+}
+
+.music-links{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  padding:20px 100px;
+  height: 100px;
+  /* padding: 10px 90px; */
+  box-sizing:border-box;
+}
+.music-links ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  display: flex;
+  bottom:0;
+  
+}
+.music-links ul li a{
+  line-height: 50px;
+  font-family:"fira code";
+  color:yellow;
+  padding:12px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  bottom:0;
+}
+.music-links ul li a:hover{
+  background: rgba(0,0,0,0,7);
+  border-radius:6px;
 }
