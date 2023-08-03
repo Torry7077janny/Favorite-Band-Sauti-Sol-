@@ -96,7 +96,7 @@ body{
   font-family: fira code;
   padding: 12px 30px;
   text-decoration: none;
-  font-size:25px;
+  font-size:20px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -109,7 +109,7 @@ body{
 .image{
   width:350px;
   height:370px;
-  background-image:url(./immage/sautisol-images/sautisol20.png);
+  background-image:url(./image/sautisol-images/sautisol20.png);
   /* margin-left: 200px; */
   background-size: 150%;
   background-repeat: no-repeat;
@@ -128,15 +128,15 @@ body{
   font-family:"fire code";
   color:black;
   text-align: center;
-  font-size:70px;
+  font-size:60px;
   font-style: italic;
   font-weight:bold;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   text-decoration: underline;
 }
 .about-chimano p{
   font-family:"Droid sans";
-  font-size:30px;
+  font-size:20px;
   text-indent:30px;
   color:yellow;
   margin: 20px auto;

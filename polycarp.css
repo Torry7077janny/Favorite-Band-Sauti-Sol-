@@ -43,7 +43,7 @@ body{
   color: lightsalmon;
   padding: 12px 30px;
   text-decoration: none;
-  font-size:25px;
+  font-size:20px;
   font-weight: 70px;
   text-transform: uppercase;
 }
@@ -75,15 +75,15 @@ body{
 .about-polycarp h1{
   font-family: "Cascadia mono";
   text-align: center;
-  font-size:50px;
+  font-size:40px;
   font-style: italic;
   font-weight: 70px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   text-decoration: underline;
 }
 .about-polycarp p{
   font-family: "optima";
-  font-size:30px;
+  font-size:20px;
   text-indent:30px;
   color:yellow;
   margin: 20px auto;
