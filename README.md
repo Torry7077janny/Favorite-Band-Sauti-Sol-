@@ -27,7 +27,7 @@ Inorder to be able to run the website you will need the following:
 ## SETUP
 These are the steps you need to follow inorder to be able to run the code in your computer/laptop:
 
-1.Open your cgrome browser and log in to your git hub account.
+1.Open your chrome browser and log in to your git hub account.
 
 2.Once you are in your github account write this repository https://github.com/Torry7077janny/Favoritebandsautisol.git  in your search box in the github account.
 
